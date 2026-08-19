@@ -16,8 +16,8 @@ config:
   clientCertificates:
     - domain: "*.tdc.vv"
       type: pem
-      certificateFilePath: ../../../BK-Contabo/apps/00.nginx/certs/ss-RootCA/tdc-root-ca.crt
-      privateKeyFilePath: ../../../BK-Contabo/apps/00.nginx/certs/ss-RootCA/tdc-root-ca.key
+      certificateFilePath: /home/tdc/BK-Contabo/apps/00.nginx/certs/ss-RootCA/tdc-root-ca.crt
+      privateKeyFilePath: /home/tdc/BK-Contabo/apps/00.nginx/certs/ss-RootCA/tdc-root-ca.key
 bundled: false
 extensions:
   bruno:
