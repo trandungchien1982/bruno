@@ -1,7 +1,7 @@
 opencollection: 1.0.0
 
 info:
-  name: KongAPI-Webhook4-tdc.vv
+  name: Kong-https-webhook4.tdc.vv
 config:
   proxy:
     inherit: true

@@ -1,7 +1,7 @@
 opencollection: 1.0.0
 
 info:
-  name: Webhook-tdc.vv
+  name: Webhook.tdc.vv
 config:
   proxy:
     inherit: true
