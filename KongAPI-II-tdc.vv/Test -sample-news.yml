@@ -5,7 +5,7 @@ info:
 
 http:
   method: PATCH
-  url: http://kong-webhook2.tdc.vv:8000/kong-api/sample/news
+  url: http://kong-webhook2.tdc.vv:8000/kong-api/sample/news/them/mot
   headers:
     - name: Header_01
       value: Value01
@@ -19,6 +19,17 @@ http:
     - name: header-04
       value: TDC - Value 04
       description: Gi day 04
+    - name: duong_xua
+      value: Chung bong
+      description: Nguoi di
+    - name: ve_dau
+      value: Anh mat
+      description: nguoi thuong
+    - name: cho_ta
+      value: Ve voi
+      description: Nghia tinh tham sau
+    - name: noi_dung
+      value: Ta se them vao
   auth: inherit
 
 settings:
