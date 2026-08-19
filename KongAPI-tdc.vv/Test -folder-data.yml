@@ -1,0 +1,28 @@
+info:
+  name: Test /folder/data
+  type: http
+  seq: 5
+
+http:
+  method: DELETE
+  url: http://kong-webhook.tdc.vv:8000/kong-apifolder/data
+  headers:
+    - name: Header_01
+      value: Value01
+      description: Desp - 01
+    - name: Header_02
+      value: Value02
+      description: Desp - 02
+    - name: header-03
+      value: TDC - Value 02
+      description: Gi day 03
+    - name: header-04
+      value: TDC - Value 04
+      description: Gi day 04
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
