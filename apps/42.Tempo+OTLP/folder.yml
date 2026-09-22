@@ -1,0 +1,7 @@
+info:
+  name: 42.Tempo+OTLP
+  type: folder
+  seq: 10
+
+request:
+  auth: inherit

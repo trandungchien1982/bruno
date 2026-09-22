@@ -1,0 +1,22 @@
+info:
+  name: Add Payment
+  type: http
+  seq: 6
+
+http:
+  method: POST
+  url: http://localhost:8088/api/payments
+  body:
+    type: json
+    data: |-
+      {
+        "username": "Payment 01"
+        , "email": "test-payment@ttt.com"
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

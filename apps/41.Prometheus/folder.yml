@@ -1,0 +1,7 @@
+info:
+  name: 41.Prometheus
+  type: folder
+  seq: 2
+
+request:
+  auth: inherit
